@@ -1,4 +1,4 @@
-QlikView Extension - WebPageViewer2
+![](https://raw.github.com/stefanwalther/QlikView_Extension_WebPageViewer2/master/gh-pages/images/Icon.png) QlikView Extension - WebPageViewer2
 ===
 
 QlikView Extension to display a web page in QlikView.
@@ -41,6 +41,7 @@ Installation & Configuration
 
 Resources
 ---------
+* [Change Log](https://github.com/stefanwalther/QlikView_Extension_WebPageViewer2/blob/master/CHANGELOG.md)
 * Additional information can be found at http://www.qlikblog.at/2679/improved-webpageviewer-qlikview-extension
 * Direct download of the latest build
 
