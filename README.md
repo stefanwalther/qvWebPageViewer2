@@ -45,13 +45,11 @@ Resources
 * Additional information can be found at http://www.qlikblog.at/2679/improved-webpageviewer-qlikview-extension
 * [Direct download](https://github.com/stefanwalther/QlikView_Extension_WebPageViewer2/raw/master/Install/WebPageViewer2_Latest.qar) of the latest build
 
-License
+
+License & Credits
 -------
 The software is made available "AS IS" without any warranty of any kind under the MIT License (MIT).
 Since this is a private project QlikTech support agreement does not cover support for this software.
 
-Credits
--------
+For further license related information please [go to license page](https://github.com/stefanwalther/QlikView_Extension_WebPageViewer2/blob/master/LICENSE.md)
 
-* Icon set(s) used for this solution:
- * "Batch Icons" by Adam Whitcroft (http://adamwhitcroft.com/batch/)
