@@ -39,11 +39,13 @@ Installation & Configuration
 1. Finally deploy the extension to your server (-> detailed instruction)
 
 
-### License
+License
+-------
 The software is made available "AS IS" without any warranty of any kind under the MIT License (MIT).
 Since this is a private project QlikTech support agreement does not cover support for this software.
 
-### Credits
+Credits
+-------
 
 * Icon set(s) used for this solution:
  * "Batch Icons" by Adam Whitcroft (http://adamwhitcroft.com/batch/)
