@@ -10,22 +10,20 @@ Features
 
 Basically this only fixes one bug of the WebPageViewer extension and adds a single new feature:
 
-* **Bugfix for multiple instances of WebPageViewer on one sheet**
+* __Bugfix for multiple instances of WebPageViewer on one sheet__
 The standard WebPageViewer extension does not allow to place multiple instances of the extension on one sheet.
 
-* **New Feature Prevent Interaction**
+* __New Feature Prevent Interaction__
 If this option is ticked the user will not be able to interact with the web page loaded in the extension (e.g. clicking on links, etc.)
 
 Screenshots
 -----------
 
-**Adding the WebPageViewer2 Extension:**
-
+__Adding the WebPageViewer2 Extension:__
 ![Adding the WebPageViewer2 Extension](https://raw.github.com/stefanwalther/QlikView_Extension_WebPageViewer2/master/gh-pages/images/WebPageViewer2_AddExtensionObject.png)
 
 
-**Configuration Dialog:**
-
+__Configuration Dialog:__
 ![Configuration Dialog](https://raw.github.com/stefanwalther/QlikView_Extension_WebPageViewer2/master/gh-pages/images/WebPageViewer2_PropertyDialog.png)
 
 
