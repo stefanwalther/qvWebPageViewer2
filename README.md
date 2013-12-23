@@ -8,13 +8,16 @@ This is a replacement for the WebPageViewer extension which is installed as one 
 Features
 --------
 
-Basically this only fixes one bug of the WebPageViewer extension and adds a single new feature:
+Basically this only fixes one bug of the WebPageViewer extension and adds some new features in comparison to the default WebPageViewer-extension:
 
 * **Bugfix for multiple instances of WebPageViewer on one sheet**  
 The standard WebPageViewer extension does not allow to place multiple instances of the extension on one sheet.
 
-* **New Feature Prevent Interaction**  
+* **New Feature: Prevent Interaction**  
 If this option is ticked the user will not be able to interact with the web page loaded in the extension (e.g. clicking on links, etc.)
+
+* **New Feature: Prevent Reloading Url**  
+If the Url does not change (e.g. when making some selections in QlikView) the web page will only be refreshed if the setting `Prevent reloading if Url does not change` is set to `false`.
 
 Screenshots
 -----------
