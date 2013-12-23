@@ -10,11 +10,11 @@ Features
 
 Basically this only fixes one bug of the WebPageViewer extension and adds a single new feature:
 
-* __Bugfix for multiple instances of WebPageViewer on one sheet__
-The standard WebPageViewer extension does not allow to place multiple instances of the extension on one sheet.
+* **Bugfix for multiple instances of WebPageViewer on one sheet**
+  The standard WebPageViewer extension does not allow to place multiple instances of the extension on one sheet.
 
-* __New Feature Prevent Interaction__
-If this option is ticked the user will not be able to interact with the web page loaded in the extension (e.g. clicking on links, etc.)
+* **New Feature Prevent Interaction**
+  If this option is ticked the user will not be able to interact with the web page loaded in the extension (e.g. clicking on links, etc.)
 
 Screenshots
 -----------
