@@ -1,4 +1,4 @@
-![](https://raw.github.com/stefanwalther/QlikView_Extension_WebPageViewer2/master/gh-pages/images/Icon.png) QlikView Extension - WebPageViewer2
+QlikView Extension - WebPageViewer2
 ===
 
 QlikView Extension to display a web page in QlikView.
