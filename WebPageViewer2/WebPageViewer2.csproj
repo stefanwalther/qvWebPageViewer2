@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ExtensionTemplate</RootNamespace>
-    <AssemblyName>ExtensionTemplate</AssemblyName>
+    <RootNamespace>WebPageViewer2</RootNamespace>
+    <AssemblyName>WebPageViewer2</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -51,9 +51,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ChangeLog.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Credits.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -65,9 +62,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="lib\css\style.css">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="License.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="ReadMe.txt">
@@ -108,40 +102,13 @@
     </VisualStudio>
   </ProjectExtensions>
   <PropertyGroup>
-    <PostBuildEvent>SET LOCAL_PATH="C:\Users\swr\AppData\Local\QlikTech\QlikView\Extensions\Objects\WebPageViewer2\"
-SET SERVER_PATH="D:\QV-Server\v11\Extensions\Objects\WebPageViewer2\"
-
-REM ****************************************************************************************************************
-REM COPY TO LOCAL
-REM ****************************************************************************************************************
-Rem Create target directory if not exists
-IF NOT EXIST "%25LOCAL_PATH%25" (
-	ECHO "Create local path: %25LOCAL_PATH%25"
-	MKDIR "%25LOCAL_PATH%25"
-)
-REM Remove remaining files from old builds, so delete everything
-DEL "%25LOCAL_PATH%25*.*" /S /F /Q /EXCLUDE:DynProperties.qvpp
-XCOPY "$(TargetDir)*.*" "%25LOCAL_PATH%25" /Y /E /I
-
-REM Delete .dll and .pdb
-DEL "%25LOCAL_PATH%25"$(TargetFileName)
-DEL "%25LOCAL_PATH%25"$(TargetName).pdb
-
-REM ****************************************************************************************************************
-REM COPY TO SERVER
-REM ****************************************************************************************************************
-REM Create target directory if not exists
-IF NOT EXIST "%25SERVER_PATH%25" (
-	ECHO "Create server path: %25SERVER_PATH%25"
-	MKDIR %25SERVER_PATH%25
-)
-REM Remove remaining files from old builds, so delete everything
-DEL "%25SERVER_PATH%25*.*" /S /F /Q /EXCLUDE:DynProperties.qvpp
-XCOPY "$(TargetDir)*.*" "%25SERVER_PATH%25" /Y /E /I
-
-REM Delete .dll and .pdb
-DEL "%25SERVER_PATH%25"$(TargetFileName)
-DEL "%25SERVER_PATH%25"$(TargetName).pdb</PostBuildEvent>
+    <PostBuildEvent>SET vExtensionName="WebPageViewer2"
+SET vTargetDir="$(TargetDir)"
+SET vTargetName="$(TargetName)"
+SET vTargetFileName="$(TargetFileName)"
+ 
+"$(SolutionDir)Build\Batch_PostBuild_QlikViewExtension.bat" %25vExtensionName%25 %25vTargetDir%25 %25vTargetName%25 %25vTargetFileName%25
+</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

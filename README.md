@@ -39,6 +39,11 @@ Installation & Configuration
 1. Finally deploy the extension to your server (-> [detailed instruction](http://www.qlikblog.at/1597/qliktip-40-installingdeploying-qlikview-extensions/))
 
 
+Resources
+---------
+* Additional information can be found at http://www.qlikblog.at/2679/improved-webpageviewer-qlikview-extension
+* Direct download of the latest build
+
 License
 -------
 The software is made available "AS IS" without any warranty of any kind under the MIT License (MIT).

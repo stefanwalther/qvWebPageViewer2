@@ -6,11 +6,14 @@
   <Initiate Name="Caption.Icon.SendToExcel" value="0" />
   <Initiate Name="Caption.Text" value="Web Page Viewer 2" />
   <Initiate Name="Chart.Text.1.Content" value="1" />
-  <Initiate Name="Chart.Text.2.Content" value="Interaction is disabled ..." /> 
+  <Initiate Name="Chart.Text.2.Content" value="Interaction is disabled ..." />
+  <Initiate Name="Chart.Text.3.Content" value="1" />
+
 
   <Text Label="Webpage Url:" Initial="" Expression="='http://www.qlikview.com/'"/>
   <Text Label="Prevent Interaction:" Type="checkbox" Initial="" />
   <Text Label="Interaction Message:" Type="text" Initial="" />
+  <Text Label="Prevent Reloading" Type="checkbox" Initial="" />
 
   <PropertiesPage Version="11" File="Properties.qvpp" />
   

@@ -21,6 +21,10 @@
         <div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.0.Content'></div>
       </div>
       <br />
+      <div class='prop-grid_clear prop-grid_prepend-2'>
+        <div class='prop-grid_span-1' avq='prop_checkbox:.Chart.Text.3.Content'></div>
+        <div class='prop-grid_span-11 prop-grid_prepend-1 prop-grid_last' avq='prop_label'>Prevent reloading if Url does not change</div>
+      </div>
 
       <div class="prop-grid_clear prop-grid_top-vertical-spacer-12px"></div>
       <div class="prop-grid_clear prop-grid_top-vertical-spacer-12px"></div>
@@ -43,7 +47,6 @@
         <div class='prop-grid_span-1'></div>
         <div class='prop-grid_span-7 prop-grid_last' style='width:88%' avq='prop_editexpression:.Chart.Text.2.Content'></div>
       </div>
-
     </div>
 		
     
