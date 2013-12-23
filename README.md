@@ -36,7 +36,7 @@ Installation & Configuration
 1. Set the desired properties:
    * Set the web page Url
    * Define whether interaction with the loaded web site should be prevented or not
-1. Finally deploy the extension to your server (-> detailed instruction)
+1. Finally deploy the extension to your server (-> [detailed instruction](http://www.qlikblog.at/1597/qliktip-40-installingdeploying-qlikview-extensions/))
 
 
 License
