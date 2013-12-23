@@ -1,0 +1,6 @@
+﻿// ------------------------------------------------------------------
+// Icons used:
+// ------------------------------------------------------------------
+
+Icon set(s) used for this solution:
+	- "Batch Icons" by Adam Whitcroft (http://adamwhitcroft.com/batch/)

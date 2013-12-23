@@ -1,0 +1,10 @@
+﻿
+===== v1.0.2 - 12/23/2013 =====
+
+===== v1.0.1 - 07/08/2013 =====
+* New:		Display a message if "Prevent Interactivity" is checked
+* Changed:	Layout of property dialog
+
+===== v1.0.0 - 06/28/2013 =====
+* Release:	Initial Release v1.0.0
+

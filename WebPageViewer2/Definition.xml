@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject Label="WebPageViewer2" Path="WebPageViewer2" Description="Web page in a frame v2">
+  <Initiate Name="Chart.BgColor.ColorHex" value="#ffffff" />
+  <Initiate Name="Caption.Allow.Minimize" value="0" />
+  <Initiate Name="Caption.Allow.Maximize" value="0" />
+  <Initiate Name="Caption.Icon.SendToExcel" value="0" />
+  <Initiate Name="Caption.Text" value="Web Page Viewer 2" />
+  <Initiate Name="Chart.Text.1.Content" value="1" />
+  <Initiate Name="Chart.Text.2.Content" value="Interaction is disabled ..." /> 
+
+  <Text Label="Webpage Url:" Initial="" Expression="='http://www.qlikview.com/'"/>
+  <Text Label="Prevent Interaction:" Type="checkbox" Initial="" />
+  <Text Label="Interaction Message:" Type="text" Initial="" />
+
+  <PropertiesPage Version="11" File="Properties.qvpp" />
+  
+</ExtensionObject>

@@ -1,0 +1,64 @@
+﻿<div class="ToolWindow-MainBody" avq="foldOutMenu:." style="overflow: visible !important; float: left;">
+	<div class="prop-accordion" avq="accordion:.">
+		<h3 class="prop-h3 accordion-shadow">
+			<a href="#">
+				Web Page Viewer v2
+			</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" style="overflow:auto;">
+			<div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+
+      
+      <div class='prop-grid_clear prop-grid_prepend-1'>
+        <b>Extension Content:</b>
+        <br/>
+        <i>Set the Url of the web page to be loaded within the area of this extension.</i>
+      </div>
+      <br clear='all'/>
+
+      <div class='prop-grid_clear prop-grid_prepend-2 prop-grid_span-2' avq='prop_label'>Url:</div>
+      <div class='prop-grid_span-12 prop-grid_last'>
+        <div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.0.Content'></div>
+      </div>
+      <br />
+
+      <div class="prop-grid_clear prop-grid_top-vertical-spacer-12px"></div>
+      <div class="prop-grid_clear prop-grid_top-vertical-spacer-12px"></div>
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-14'>
+        <b>Behavior:</b>
+        <br/>
+        <i>Define whether interaction with the web page's content is enabled or not. If you decide to prevent interaction you can define a message which will be display instead.</i>
+      </div>
+
+      <div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last">
+        <br clear="all" />
+      </div>
+      <div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+      <div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+      <div class='prop-grid_clear prop-grid_prepend-2'>
+        <div class='prop-grid_span-1' avq='prop_checkbox:.Chart.Text.1.Content'></div>
+        <div class='prop-grid_span-7 prop-grid_last' avq='prop_label'>Prevent Interaction</div>
+      </div>
+      <div class='prop-grid_clear prop-grid_prepend-1'>
+        <div class='prop-grid_span-1'></div>
+        <div class='prop-grid_span-7 prop-grid_last' style='width:88%' avq='prop_editexpression:.Chart.Text.2.Content'></div>
+      </div>
+
+    </div>
+		
+    
+    <h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader:.:GenericPresentationFoldout.qvpp">
+			<a href="#">Presentation</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" avq="panel::Layout.qvpp"></div>
+		<h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader::PropertiesCaptionFoldout.qvpp">
+			<a href="#">Caption</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" avq="panel::Caption.qvpp"></div>
+		<h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader:.:PropertiesOptionsFoldout.qvpp">
+			<a href="#">Options</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" avq="panel::Options.qvpp"></div>
+	</div>
+	<span class="bottom-gap"></span>
+</div>

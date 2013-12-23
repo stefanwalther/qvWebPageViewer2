@@ -1,0 +1,17 @@
+﻿.WebPageViewer2_divBlank {
+    position:absolute;
+    background-color: #fff;
+    opacity:0;
+}
+
+.WebPageViewer2_divBlankMsg {
+    position:absolute;
+    top:0px;
+    right:0px;
+    float:right;
+    background-color: #CAFF70;
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    color:#666;
+    padding:5px 10px 5px 10px;
+    font-size:0.9em;
+}
