@@ -18,11 +18,14 @@ If this option is ticked the user will not be able to interact with the web page
 
 Screenshots
 -----------
-Adding the WebPageViewer2 Extension:
+**
+Adding the WebPageViewer2 Extension:**
+
 ![Adding the WebPageViewer2 Extension](https://raw.github.com/stefanwalther/QlikView_Extension_WebPageViewer2/master/gh-pages/images/WebPageViewer2_AddExtensionObject.png)
 
 
-Configuration Dialog:
+**Configuration Dialog:**
+
 ![Configuration Dialog](https://raw.github.com/stefanwalther/QlikView_Extension_WebPageViewer2/master/gh-pages/images/WebPageViewer2_PropertyDialog.png)
 
 
