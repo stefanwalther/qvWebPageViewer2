@@ -19,12 +19,12 @@ Basically this only fixes one bug of the WebPageViewer extension and adds a sing
 Screenshots
 -----------
 
-__Adding the WebPageViewer2 Extension:__
-![Adding the WebPageViewer2 Extension](https://raw.github.com/stefanwalther/QlikView_Extension_WebPageViewer2/master/gh-pages/images/WebPageViewer2_AddExtensionObject.png)
+**Adding the WebPageViewer2 Extension:**
+  ![Adding the WebPageViewer2 Extension](https://raw.github.com/stefanwalther/QlikView_Extension_WebPageViewer2/master/gh-pages/images/WebPageViewer2_AddExtensionObject.png)
 
 
-__Configuration Dialog:__
-![Configuration Dialog](https://raw.github.com/stefanwalther/QlikView_Extension_WebPageViewer2/master/gh-pages/images/WebPageViewer2_PropertyDialog.png)
+**Configuration Dialog:**
+  ![Configuration Dialog](https://raw.github.com/stefanwalther/QlikView_Extension_WebPageViewer2/master/gh-pages/images/WebPageViewer2_PropertyDialog.png)
 
 
 Installation & Configuration
