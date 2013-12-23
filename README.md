@@ -43,7 +43,7 @@ Resources
 ---------
 * [Change Log](https://github.com/stefanwalther/QlikView_Extension_WebPageViewer2/blob/master/CHANGELOG.md)
 * Additional information can be found at http://www.qlikblog.at/2679/improved-webpageviewer-qlikview-extension
-* Direct download of the latest build
+* [Direct download](https://github.com/stefanwalther/QlikView_Extension_WebPageViewer2/raw/master/Install/WebPageViewer2_v1.0.2.qar) of the latest build
 
 License
 -------
