@@ -19,7 +19,7 @@ function WebPageViewer2_Init() {
         function () {
 
             var _this = this;
-            if (_this.ExtSettings == null || _this.ExtSettings == 'undefined') {
+            if (_this.ExtSettings == null || typeof _this.ExtSettings === 'undefined') {
                 _this.ExtSettings = {};
                 _this.ExtSettings.ExtensionName = 'WebPageViewer2';
                 _this.ExtSettings.LoadUrl = Qva.Remote + (Qva.Remote.indexOf('?') >= 0 ? '&' : '?') + 'public=only' + '&name=';
