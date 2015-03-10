@@ -161,7 +161,7 @@ function WebPageViewer2_Init() {
                 } else {
                     _this.ExtSettings.ReloadNeeded = false;
                 }
-                _this.ExtSettings.WebPageUrl = _this.Layout.Text0.text;
+                _this.ExtSettings.WebPageUrl = encodeURI(_this.Layout.Text0.text);
 
                 ConsoleLog("\tWeb Page Url: " + _this.ExtSettings.WebPageUrl);
                 ConsoleLog("\tReload Needed: " + _this.ExtSettings.ReloadNeeded);

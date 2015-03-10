@@ -1,10 +1,12 @@
 Change Log
 ==========
 
+v1.0.4 (03/10/2015)
+* Fixed an issue when Url needs to be encoded
 
 v1.0.3 (02/13/2014)
 -------------------  
-* Fixed an issed when integrating QlikView Mashups (window remains blank)
+* Fixed an issue when integrating QlikView Mashups (window remains blank)
 
 v1.0.2 (12/23/2013)
 -------------------  
